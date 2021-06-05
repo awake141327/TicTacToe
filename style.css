@@ -1,0 +1,89 @@
+body {
+  margin:0;
+  font-family: 'Asap Condensed', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: powderblue;
+}
+
+h1 {
+  letter-spacing: 5px;
+  margin: 0;
+  margin-bottom: 80px;
+  font-size: 3rem;
+  font-variant: small-caps;
+  color: black;
+}
+
+p{
+  letter-spacing: 8px;
+  margin: 0;
+  margin-bottom: 80px;
+  font-size: 2rem;
+  font-variant: small-caps;
+  color:black;
+}
+
+img {
+  width:63.6px;
+  height:70px;
+}
+
+a {
+  text-decoration: none;
+  padding:10px 20px;
+  background: greenyellow;
+  color:white;
+  font-weight: 900;
+  font-variant:small-caps;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 80px;
+}
+
+a:hover, a:focus{
+  background: white;
+  color:greenyellow;
+}
+
+#reset {
+  display:none;
+}
+
+.board-container {
+  display: none;
+}
+
+.button{
+  width:75px;
+  height: 75px;
+  margin:0;
+  cursor: pointer;
+  border:none;
+  background: powderblue;
+  outline: none;
+}
+
+.button-1, .button-2,
+.button-4, .button-5 {
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.button-3, .button-6 {
+  border-bottom: 3px solid black;
+  border-right: 3px solid powderblue;
+}
+
+.button-7, .button-8 {
+  border-right:3px solid black;
+  border-bottom: 3px solid powderblue;
+}
+
+.button-9 {
+  border-bottom: 3px solid powderblue;
+  border-right: 3px solid powderblue;
+}
