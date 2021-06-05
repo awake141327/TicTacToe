@@ -1,6 +1,6 @@
 # TicTacToe
 
-Stone-Paper-Scissor created with HTML, CSS and JS
+Tic Tac Toe created with HTML, CSS and JS
 
 https://tictactoe1413.netlify.app
 
